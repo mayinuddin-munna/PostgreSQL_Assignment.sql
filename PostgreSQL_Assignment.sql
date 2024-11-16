@@ -43,4 +43,12 @@ CREATE TABLE enrollment (
     course_id INTEGER REFERENCES courses(course_id)
 );
 
+INSERT INTO enrollment (enrollment_id, student_id, course_id)
+VALUES
+    (1, 1, 1),
+    (2, 1, 2),
+    (3, 2, 1),
+    (4, 3, 2);
+
+
 select * FROM enrollment;
