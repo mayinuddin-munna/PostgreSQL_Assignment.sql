@@ -1,0 +1,1 @@
+select ROUND(AVG(age), 2) as average_age from students;
